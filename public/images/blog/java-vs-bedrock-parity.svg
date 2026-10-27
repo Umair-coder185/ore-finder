@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Java Edition vs Bedrock Edition Ore Generation Parity Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // JAVA EDITION VS. BEDROCK EDITION PARITY</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">Shared Y-Level Distribution Curves vs. Divergent PRNG Feature Decoration Streams</text>
+  <rect x="130" y="200" width="440" height="300" rx="12" fill="#111916" stroke="#69C598" stroke-width="2"/>
+  <text x="160" y="245" fill="#69C598" font-family="monospace" font-size="16" font-weight="bold">JAVA EDITION (1.18–1.21)</text>
+  <text x="160" y="285" fill="#F4F7F4" font-family="monospace" font-size="14">PRNG: Xoroshiro128++ (128-bit)</text>
+  <text x="160" y="315" fill="#A8B8AF" font-family="monospace" font-size="13">Seeds: Full 64-bit signed long</text>
+  <text x="160" y="345" fill="#69C598" font-family="monospace" font-size="13">Mode: Deterministic Candidates</text>
+
+  <rect x="630" y="200" width="440" height="300" rx="12" fill="#111916" stroke="#D5B77D" stroke-width="2"/>
+  <text x="660" y="245" fill="#D5B77D" font-family="monospace" font-size="16" font-weight="bold">BEDROCK EDITION (1.18–1.21)</text>
+  <text x="660" y="285" fill="#F4F7F4" font-family="monospace" font-size="14">PRNG: C++ MT19937 (Mersenne Twister)</text>
+  <text x="660" y="315" fill="#A8B8AF" font-family="monospace" font-size="13">Strata: Aligned 1.18+ Y-Level Peaks</text>
+  <text x="660" y="345" fill="#D5B77D" font-family="monospace" font-size="13">Mode: Verified Distribution Guidance</text>
+</svg>
+

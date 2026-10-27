@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Deepslate Diamond Air-Exposure Discard Mechanics Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // AIR-EXPOSURE DISCARD MECHANICS (1.18–1.21)</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">Comparison of Buried Deepslate Placement vs. Open Cave Air Discard Checks</text>
+  <!-- Left Box: Open Cave Air -->
+  <rect x="130" y="190" width="440" height="320" rx="12" fill="#111916" stroke="#34443B" stroke-width="2"/>
+  <text x="160" y="235" fill="#F28B82" font-family="monospace" font-size="16" font-weight="bold">OPEN CAVE AIR CONTACT</text>
+  <text x="160" y="265" fill="#A8B8AF" font-family="monospace" font-size="13">ore_diamond_buried: 100% Discarded</text>
+  <text x="160" y="290" fill="#A8B8AF" font-family="monospace" font-size="13">ore_diamond_large:  70% Discarded</text>
+  <text x="160" y="315" fill="#A8B8AF" font-family="monospace" font-size="13">ore_diamond_medium: 50% Discarded</text>
+  <rect x="220" y="360" width="90" height="90" rx="8" fill="none" stroke="#F28B82" stroke-dasharray="6 6" stroke-width="2.5"/>
+  <text x="236" y="410" fill="#F28B82" font-family="monospace" font-size="13">SKIPPED</text>
+  <!-- Right Box: Solid Deepslate / Aquifer -->
+  <rect x="630" y="190" width="440" height="320" rx="12" fill="#111916" stroke="#69C598" stroke-width="2"/>
+  <text x="660" y="235" fill="#69C598" font-family="monospace" font-size="16" font-weight="bold">BURIED DEEPSLATE &amp; AQUIFERS</text>
+  <text x="660" y="265" fill="#A8B8AF" font-family="monospace" font-size="13">Encased in deepslate_ore_replaceables</text>
+  <text x="660" y="290" fill="#A8B8AF" font-family="monospace" font-size="13">Waterlogged blocks do NOT trigger air discard</text>
+  <rect x="730" y="360" width="90" height="90" rx="8" fill="#5CE1E6" fill-opacity="0.25" stroke="#5CE1E6" stroke-width="2.5"/>
+  <rect x="835" y="360" width="90" height="90" rx="8" fill="#5CE1E6" fill-opacity="0.25" stroke="#5CE1E6" stroke-width="2.5"/>
+  <text x="745" y="410" fill="#F4F7F4" font-family="monospace" font-size="13">RETAINED</text>
+  <text x="850" y="410" fill="#F4F7F4" font-family="monospace" font-size="13">RETAINED</text>
+</svg>
+

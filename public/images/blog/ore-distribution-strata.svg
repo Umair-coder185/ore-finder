@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Minecraft 1.18 to 1.21 Ore Distribution Strata Technical Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <g stroke="#1B2621" stroke-width="2">
+    <line x1="100" y1="90" x2="1100" y2="90"/>
+    <line x1="100" y1="190" x2="1100" y2="190"/>
+    <line x1="100" y1="290" x2="1100" y2="290"/>
+    <line x1="100" y1="390" x2="1100" y2="390"/>
+    <line x1="100" y1="490" x2="1100" y2="490"/>
+  </g>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="none" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // OVERWORLD STRATA PROFILE (Y = -64 TO 319)</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">Triangular (Trapezoid) vs. Uniform Placement Density Across Elevation Bands</text>
+  <!-- Y-Level Axis Labels -->
+  <g fill="#76887E" font-family="monospace" font-size="14">
+    <text x="120" y="535">Y = -64 (Bedrock)</text>
+    <text x="320" y="535">Y = -54 (Diamond Peak)</text>
+    <text x="550" y="535">Y = -16 (Gold Peak)</text>
+    <text x="760" y="535">Y = 16 (Iron Peak)</text>
+    <text x="950" y="535">Y = 48 (Copper Peak)</text>
+  </g>
+  <!-- Triangular Distribution Curves -->
+  <polygon points="140,490 280,220 460,490" fill="#5CE1E6" fill-opacity="0.22" stroke="#5CE1E6" stroke-width="3"/>
+  <polygon points="360,490 560,250 740,490" fill="#F5C451" fill-opacity="0.20" stroke="#F5C451" stroke-width="3"/>
+  <polygon points="580,490 770,210 940,490" fill="#D9C3B0" fill-opacity="0.22" stroke="#D9C3B0" stroke-width="3"/>
+  <polygon points="760,490 960,240 1080,490" fill="#FB923C" fill-opacity="0.20" stroke="#FB923C" stroke-width="3"/>
+  <g fill="#F4F7F4" font-family="monospace" font-size="14" font-weight="bold">
+    <text x="225" y="205">DIAMOND (Y=-59..-53)</text>
+    <text x="505" y="235">GOLD (Y=-16)</text>
+    <text x="720" y="195">IRON (Y=16)</text>
+    <text x="905" y="225">COPPER (Y=48)</text>
+  </g>
+</svg>
+

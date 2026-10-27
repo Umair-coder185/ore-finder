@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Branch Mining vs Cave Exploration Depth Strategy Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // BRANCH MINING GEOMETRY AT Y = -54</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">1x2 Tunnel Spacing, 3-Block Rib Intervals, and Lava Aquifer Floor Clearance</text>
+  <g stroke="#26332C" stroke-width="1.5">
+    <line x1="120" y1="220" x2="1080" y2="220"/>
+    <line x1="120" y1="300" x2="1080" y2="300"/>
+    <line x1="120" y1="380" x2="1080" y2="380"/>
+    <line x1="120" y1="460" x2="1080" y2="460"/>
+  </g>
+  <!-- Branch Tunnels -->
+  <rect x="200" y="250" width="70" height="140" rx="6" fill="#69C598" fill-opacity="0.25" stroke="#69C598" stroke-width="2.5"/>
+  <rect x="480" y="250" width="70" height="140" rx="6" fill="#69C598" fill-opacity="0.25" stroke="#69C598" stroke-width="2.5"/>
+  <rect x="760" y="250" width="70" height="140" rx="6" fill="#69C598" fill-opacity="0.25" stroke="#69C598" stroke-width="2.5"/>
+  <!-- Lava Aquifer Level -->
+  <rect x="120" y="420" width="960" height="90" rx="8" fill="#FB923C" fill-opacity="0.22" stroke="#FB923C" stroke-width="2"/>
+  <text x="150" y="470" fill="#FB923C" font-family="monospace" font-size="16" font-weight="bold">Y = -55 TO -64: LAVA AQUIFER BASIN (FLOODED CAVERN LEVEL)</text>
+  <text x="150" y="240" fill="#F4F7F4" font-family="monospace" font-size="15" font-weight="bold">Y = -54 FLOOR: SAFE HORIZON ABOVE LAVA BASINS</text>
+</svg>
+

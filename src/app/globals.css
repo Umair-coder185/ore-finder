@@ -1,26 +1,94 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@import "../styles/tokens.css";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-manrope), system-ui, -apple-system, sans-serif;
+  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-bg-light: var(--color-bg-light);
+  --color-surface-light: var(--color-surface-light);
+  --color-surface-subtle: var(--color-surface-subtle);
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-accent-emerald: var(--color-accent-emerald);
+  --color-accent-emerald-hover: var(--color-accent-emerald-hover);
+  --color-accent-emerald-subtle: var(--color-accent-emerald-subtle);
+  --color-accent-gold: var(--color-accent-gold);
+  --color-accent-gold-subtle: var(--color-accent-gold-subtle);
+  --color-border-light: var(--color-border-light);
+  --color-border-strong: var(--color-border-strong);
+
+  --color-tool-bg: var(--color-tool-bg);
+  --color-tool-surface: var(--color-tool-surface);
+  --color-tool-panel: var(--color-tool-panel);
+  --color-tool-panel-hover: var(--color-tool-panel-hover);
+  --color-tool-text-primary: var(--color-tool-text-primary);
+  --color-tool-text-secondary: var(--color-tool-text-secondary);
+  --color-tool-text-muted: var(--color-tool-text-muted);
+  --color-tool-accent: var(--color-tool-accent);
+  --color-tool-accent-hover: var(--color-tool-accent-hover);
+  --color-tool-gold: var(--color-tool-gold);
+  --color-tool-border: var(--color-tool-border);
+  --color-tool-border-subtle: var(--color-tool-border-subtle);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    border-color: var(--color-border-light);
+  }
+
+  html {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: var(--color-bg-light);
+    color: var(--color-text-primary);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-accent-emerald);
+    outline-offset: 2px;
+  }
+
+  .dark-workspace :focus-visible {
+    outline: 2px solid var(--color-tool-accent);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

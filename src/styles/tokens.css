@@ -1,0 +1,89 @@
+/**
+ * OreFinder.io — Premium Hybrid Design System Tokens
+ *
+ * Environment A: Premium Light Editorial Surface
+ * Environment B: Premium Dark Tool Workspace
+ */
+
+:root {
+  /* ========================================================================
+   * A. PREMIUM LIGHT WEBSITE TOKENS
+   * Navigation, homepage editorial sections, articles, supporting pages, footer
+   * ======================================================================== */
+  --color-bg-light: #f8f7f3;
+  --color-surface-light: #ffffff;
+  --color-surface-subtle: #f2f0ea;
+  --color-text-primary: #202722;
+  --color-text-secondary: #65716b;
+  --color-text-muted: #828e88;
+  --color-accent-emerald: #326b55;
+  --color-accent-emerald-hover: #275644;
+  --color-accent-emerald-subtle: #e9f1ec;
+  --color-accent-gold: #d5b77d;
+  --color-accent-gold-subtle: #f7f1e3;
+  --color-border-light: #e4e8e2;
+  --color-border-strong: #cdd4ca;
+
+  /* ========================================================================
+   * B. PREMIUM DARK TOOL WORKSPACE TOKENS
+   * Integrated interactive Ore Finder & Coordinate Analysis Workspace
+   * ======================================================================== */
+  --color-tool-bg: #111916;
+  --color-tool-surface: #1b2621;
+  --color-tool-panel: #25332c;
+  --color-tool-panel-hover: #2c3d35;
+  --color-tool-text-primary: #f4f7f4;
+  --color-tool-text-secondary: #a8b8af;
+  --color-tool-text-muted: #76887e;
+  --color-tool-accent: #69c598;
+  --color-tool-accent-hover: #57b386;
+  --color-tool-accent-subtle: rgba(105, 197, 152, 0.12);
+  --color-tool-gold: #d5b77d;
+  --color-tool-border: #34443b;
+  --color-tool-border-subtle: #26332c;
+
+  /* ========================================================================
+   * SEMANTIC FEEDBACK TOKENS
+   * ======================================================================== */
+  --color-status-info: #2e6b8e;
+  --color-status-success: #326b55;
+  --color-status-warning: #9e7329;
+  --color-status-danger: #a63a3a;
+
+  /* ========================================================================
+   * SPACING SCALE (4px / 8px Base Grid)
+   * ======================================================================== */
+  --space-1: 0.25rem; /* 4px */
+  --space-2: 0.5rem; /* 8px */
+  --space-3: 0.75rem; /* 12px */
+  --space-4: 1rem; /* 16px */
+  --space-5: 1.25rem; /* 20px */
+  --space-6: 1.5rem; /* 24px */
+  --space-8: 2rem; /* 32px */
+  --space-10: 2.5rem; /* 40px */
+  --space-12: 3rem; /* 48px */
+  --space-16: 4rem; /* 64px */
+  --space-20: 5rem; /* 80px */
+  --space-24: 6rem; /* 96px */
+
+  /* ========================================================================
+   * BORDER RADIUS & ELEVATION
+   * ======================================================================== */
+  --radius-xs: 0.25rem; /* 4px */
+  --radius-sm: 0.375rem; /* 6px */
+  --radius-md: 0.5rem; /* 8px */
+  --radius-lg: 0.75rem; /* 12px */
+  --radius-xl: 1rem; /* 16px */
+
+  --shadow-subtle: 0 1px 2px 0 rgba(32, 39, 34, 0.04);
+  --shadow-card: 0 4px 16px -4px rgba(32, 39, 34, 0.06), 0 1px 3px 0 rgba(32, 39, 34, 0.04);
+  --shadow-workspace:
+    0 20px 44px -12px rgba(17, 25, 22, 0.28), 0 4px 12px -2px rgba(17, 25, 22, 0.14);
+
+  /* ========================================================================
+   * CONTENT WIDTHS
+   * ======================================================================== */
+  --container-max: 80rem; /* 1280px */
+  --container-editorial: 48rem; /* 768px */
+  --container-wide: 86rem; /* 1376px */
+}

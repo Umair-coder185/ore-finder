@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Minecraft 64-Bit Seed Pipeline and Xoroshiro128++ Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // 64-BIT SEED TO CHUNK DECORATION PIPELINE</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">How World Seeds Initialize Stafford13 SplitMix64 and Xoroshiro128++ Feature Streams</text>
+  <!-- Pipeline Nodes -->
+  <rect x="120" y="220" width="260" height="160" rx="12" fill="#111916" stroke="#69C598" stroke-width="2"/>
+  <text x="145" y="265" fill="#69C598" font-family="monospace" font-size="15" font-weight="bold">1. WORLD SEED INPUT</text>
+  <text x="145" y="300" fill="#F4F7F4" font-family="monospace" font-size="13">64-Bit Signed Long</text>
+  <text x="145" y="325" fill="#A8B8AF" font-family="monospace" font-size="12">or String.hashCode()</text>
+
+  <rect x="460" y="220" width="280" height="160" rx="12" fill="#111916" stroke="#D5B77D" stroke-width="2"/>
+  <text x="485" y="265" fill="#D5B77D" font-family="monospace" font-size="15" font-weight="bold">2. DECORATION SEED</text>
+  <text x="485" y="300" fill="#F4F7F4" font-family="monospace" font-size="13">blockX * a ^ blockZ * b</text>
+  <text x="485" y="325" fill="#A8B8AF" font-family="monospace" font-size="12">^ worldSeedLong</text>
+
+  <rect x="820" y="220" width="260" height="160" rx="12" fill="#111916" stroke="#5CE1E6" stroke-width="2"/>
+  <text x="845" y="265" fill="#5CE1E6" font-family="monospace" font-size="15" font-weight="bold">3. FEATURE STREAM</text>
+  <text x="845" y="300" fill="#F4F7F4" font-family="monospace" font-size="13">Xoroshiro128++</text>
+  <text x="845" y="325" fill="#A8B8AF" font-family="monospace" font-size="12">Step 6 (Underground Ores)</text>
+</svg>
+

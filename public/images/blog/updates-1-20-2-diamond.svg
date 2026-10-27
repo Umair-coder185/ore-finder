@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Minecraft 1.20.2 and 1.21 Medium Diamond Placement Update Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // 1.20.2 &amp; 1.21 DIAMOND PLACEMENT UPDATE</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">Addition of ore_diamond_medium (Uniform Y = -64 to -4) in Upper Deepslate</text>
+  <rect x="130" y="210" width="440" height="280" rx="12" fill="#111916" stroke="#34443B" stroke-width="2"/>
+  <text x="160" y="255" fill="#A8B8AF" font-family="monospace" font-size="16" font-weight="bold">MINECRAFT 1.18 – 1.19.4 (3 PASSES)</text>
+  <text x="160" y="295" fill="#F4F7F4" font-family="monospace" font-size="14">• ore_diamond (7/chunk, size 4)</text>
+  <text x="160" y="330" fill="#F4F7F4" font-family="monospace" font-size="14">• ore_diamond_large (1/9 chunks, size 12)</text>
+  <text x="160" y="365" fill="#F4F7F4" font-family="monospace" font-size="14">• ore_diamond_buried (4/chunk, size 8)</text>
+
+  <rect x="630" y="210" width="440" height="280" rx="12" fill="#111916" stroke="#5CE1E6" stroke-width="2"/>
+  <text x="660" y="255" fill="#5CE1E6" font-family="monospace" font-size="16" font-weight="bold">MINECRAFT 1.20.2 – 1.21 (4 PASSES)</text>
+  <text x="660" y="295" fill="#F4F7F4" font-family="monospace" font-size="14">• All 3 original passes PLUS:</text>
+  <text x="660" y="335" fill="#69C598" font-family="monospace" font-size="14" font-weight="bold">+ ore_diamond_medium (2/chunk, size 8)</text>
+  <text x="660" y="365" fill="#A8B8AF" font-family="monospace" font-size="13">  Uniform Y = -64 to -4 (50% air discard)</text>
+</svg>
+

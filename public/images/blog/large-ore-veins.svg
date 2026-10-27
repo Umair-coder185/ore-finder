@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Procedural Large Ore Veins Tuff-Iron and Granite-Copper Diagram">
+  <rect width="1200" height="630" fill="#111916"/>
+  <rect x="80" y="60" width="1040" height="510" rx="16" fill="#15201B" stroke="#34443B" stroke-width="2"/>
+  <text x="120" y="115" fill="#69C598" font-family="monospace" font-size="18" font-weight="bold">OREFINDER.IO // PROCEDURAL 3D NOISE LARGE ORE VEINS</text>
+  <text x="120" y="150" fill="#A8B8AF" font-family="sans-serif" font-size="16">Multi-Chunk Granite-Copper (Y = 0..50) and Tuff-Iron (Y = -60..-8) Networks</text>
+  <path d="M 140 280 Q 340 200, 560 270 T 1040 250" fill="none" stroke="#FB923C" stroke-width="18" stroke-linecap="round"/>
+  <text x="140" y="220" fill="#FB923C" font-family="monospace" font-size="15" font-weight="bold">GRANITE + COPPER MEGA-VEIN (Y = 0 TO 50)</text>
+  <path d="M 140 440 Q 420 370, 660 450 T 1040 410" fill="none" stroke="#D9C3B0" stroke-width="18" stroke-linecap="round"/>
+  <text x="140" y="385" fill="#D9C3B0" font-family="monospace" font-size="15" font-weight="bold">TUFF + DEEPSLATE IRON MEGA-VEIN (Y = -60 TO -8)</text>
+</svg>
+
